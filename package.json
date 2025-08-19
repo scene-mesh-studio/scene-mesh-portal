@@ -5,20 +5,25 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "clean": "rm -rf node_modules yarn.lock",
+    "clean": "rm -rf node_modules yarn.lock .next",
     "rebuild": "yarn clean && yarn install && yarn build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@scenemesh/entity-engine": "^0.1.39",
+    "@scenemesh/entity-engine": "0.1.49",
     "next": "^15.4.6",
     "nextra": "^4.3.0",
     "nextra-theme-docs": "^4.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-hook-form": "^7.58.1",
-    "zod": "^3.25.67"
+    "zod": "^3.25.67",
+    "@mantine/core": "8.2.5",
+    "@mantine/hooks": "8.2.5",
+    "@mantine/modals": "8.2.5",
+    "@mantine/notifications": "8.2.5",
+    "mantine-datatable": "8.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

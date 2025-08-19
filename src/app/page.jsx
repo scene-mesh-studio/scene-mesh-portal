@@ -10,8 +10,8 @@ export default function IndexPage() {
           margin: '25vh 0',
         }}
       >
-        <h1 style={{textAlign: 'center', fontSize: 64, fontWeight: 'bold'}}>
-          模型驱动开发框架
+        <h1 style={{textAlign: 'center', fontSize: 64, fontWeight: 'bold', color: 'blue'}}>
+          🚀 PAGE.JSX 已加载！模型驱动开发框架
           <div
           style={{
             opacity: '60%',
@@ -24,7 +24,15 @@ export default function IndexPage() {
         </h1>
         <br />
         
-        <div style={{width: '70%', margin: '0 auto'}}><EntityViewContainer modelName="event" viewType="grid"/></div>
+        <div style={{width: '70%', margin: '0 auto'}}>
+          {console.log('🚀 PAGE.JSX: Rendering EntityViewContainer with:', { modelName: 'product', viewName: 'productGridView' })}
+          <div style={{border: '2px solid red', padding: '10px', margin: '10px'}}>
+            <h3>EntityViewContainer Debug Area</h3>
+            <p>ModelName: product</p>
+            <p>ViewName: productGridView</p>
+            <EntityViewContainer modelName="product" viewType="grid"/>
+          </div>
+        </div>
       </div>
       
     </>

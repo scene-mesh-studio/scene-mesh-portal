@@ -4,8 +4,6 @@ import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import { EntityEngineProviderWrapper } from '../entity/provider';
 import 'nextra-theme-docs/style.css'
-import '@mantine/core/styles.css'
-import '@mantine/notifications/styles.css'
 import '@scenemesh/entity-engine/main.css'
 
 export const metadata = {
