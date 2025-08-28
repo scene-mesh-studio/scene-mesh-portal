@@ -31,7 +31,7 @@ export default async function RootLayout({ children }) {
     <Navbar
       logo={
         <div>
-          <span style={{ display: 'flex', gap: '8px', alignItems: 'center' }}><img src="/assets/images/logo.png" alt='logo' width="24" height="24"/> <b>SceneMesh Entity Engine</b> <span style={{ opacity: '60%' }}>模型驱动开发框架</span></span>{' '}
+          <span style={{ display: 'flex', gap: '8px', alignItems: 'center' }}><img src="/logo.jpg" alt='logo' width="24" height="24"/> <b>SceneMesh Entity Engine</b> <span style={{ opacity: '60%' }}>模型驱动开发框架</span></span>{' '}
           
         </div>
       }

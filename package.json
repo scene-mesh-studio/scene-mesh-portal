@@ -11,7 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@scenemesh/entity-engine": "0.1.49",
+    "@scenemesh/entity-engine": "^0.1.63",
     "next": "^15.4.6",
     "nextra": "^4.3.0",
     "nextra-theme-docs": "^4.3.0",
